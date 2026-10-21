@@ -165,39 +165,52 @@ body {
 }
 
 .article-btns {
-  margin-bottom: 48px; 
+  margin-bottom: 48px;
   gap: 20px;
   button {
     font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    appearance: none;
   }
 
   .create-btn {
-    background-color: #FFFFFF1A;
+    background-color: #ffffff1a;
   }
 }
 
 .explore-btn {
   background: linear-gradient(110deg #671ae4 #b75cff);
-  
 }
 
-.stats{ 
+.stats {
   gap: 80px;
 }
 
-.data-div{
+.data-div {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  h3{
+  h3 {
     font-size: 30px;
     font-weight: 700;
-    color: #FFFFFF;
+    color: #ffffff;
   }
-  p{
+  p {
     font-size: 20px;
     font-weight: 500;
-    color: #FFFFFF80;
+    color: #ffffff80;
   }
 }
+
+
+.collection-photos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(6, 90px);
+  gap: 16px;
+}
+
