@@ -1,5 +1,18 @@
+@font-face {
+  font-family: "Popins";
+  src: url(assets\fonts\Big_Shoulders,Lexend_Deca,Poppins,Red_Hat_Text\Poppins\Poppins-Medium.ttf);
+}
+
+:root {
+  --font-size: 16px;
+}
+
 .d-flex {
   display: flex;
+}
+
+.j-center {
+  justify-content: center;
 }
 
 .ai-center {
@@ -57,28 +70,134 @@ body {
 
         li {
           a {
+            display: flex;
             text-decoration: none;
             color: #ffffff;
             font-weight: 600;
             font-size: 16px;
+            gap: 4.5px;
+            align-items: center;
           }
         }
       }
-
-      
     }
   }
 }
 
 .personal-btns {
-        justify-content: center;
-        align-items: center;
-        
-      }
+  justify-content: center;
+  align-items: center;
+}
 
 .bell {
   width: 17px;
 }
 .message {
   width: 20px;
+}
+
+.rectangle {
+  width: 13.999999046325737px;
+  margin-right: 15px;
+}
+
+.gap-twenty {
+  gap: 20px;
+}
+
+.wallet {
+  padding: 10px;
+  border: 0.5px;
+  margin-left: 20px;
+  margin-right: 15px;
+  width: 108px;
+  height: 38px;
+}
+
+.two-main-btns {
+  margin-top: 60px;
+  font-family: Popins;
+}
+
+.collection-market {
+  gap: 73.54px;
+}
+
+.button-padding {
+  padding: 13.41px;
+  font-family: Poppins;
+  font-size: 18.78px;
+  font-weight: 500;
+  border-radius: 206.71px;
+  border: none;
+  outline: none;
+  appearance: none;
+  color: white;
+  font-family: "Popins";
+}
+
+.left-btn {
+  background-color: #6c5dd3;
+}
+.right-btn {
+  background-color: #493e52;
+}
+
+.clothes-exploration {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fashion-article {
+  width: 536px;
+
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 35px;
+  }
+}
+
+.clothes-h2 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.article-btns {
+  margin-bottom: 48px; 
+  gap: 20px;
+  button {
+    font-size: 20px;
+  }
+
+  .create-btn {
+    background-color: #FFFFFF1A;
+  }
+}
+
+.explore-btn {
+  background: linear-gradient(110deg #671ae4 #b75cff);
+  
+}
+
+.stats{ 
+  gap: 80px;
+}
+
+.data-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+  p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF80;
+  }
 }
