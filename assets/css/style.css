@@ -1,0 +1,47 @@
+
+.d-flex {
+  display: flex;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+body {
+  background-color: rgba(150, 128, 70, 0.795);
+  font-family: SF Pro Display;
+
+  header {
+    
+
+    
+
+    nav {
+
+      input {
+        height: 48px;
+        width: 358px;
+        border: 0.5px solid #FFFFFF80;
+        color: #FFFFFF;
+        border-radius: 184px;
+      }
+
+      height: 101px;
+      margin-left: 51px;
+      margin-right: 32px;
+
+      h2{
+         font-family: 'Roboto', sans-serif;
+      }
+      
+
+      ul {
+        gap: 30px;
+      }
+    }
+  }
+}
