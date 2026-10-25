@@ -565,6 +565,7 @@ body {
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 30px;
+    position: relative;
   }
   p {
     font-family: Poppins;
@@ -612,4 +613,11 @@ body {
 
 button {
   cursor: pointer;
+}
+
+
+.verified{
+  position: absolute;
+  margin-left: 10px;
+  
 }
