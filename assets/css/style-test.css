@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background: linear-gradient(110deg, #693c3c 0%, #392a3f 48%, #181e41 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.all-collection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 941px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.three-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+
+.one {
+    color: white;
+}
+
+.icons {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 1rem;
+}
+
